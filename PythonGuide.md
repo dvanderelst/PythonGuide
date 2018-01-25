@@ -219,8 +219,8 @@ all_reindeer.pop(7)
 print(all_reindeer)
 ```
 
+    ['Dasher', 'Dancer', 'Prancer', 'Vixen', 'Comet', 'Cupid', 'Donner', 'Blitzen', 'Rudolf']
     ['Dasher', 'Dancer', 'Prancer', 'Vixen', 'Comet', 'Cupid', 'Donner', 'Rudolf']
-    ['Dasher', 'Dancer', 'Prancer', 'Vixen', 'Comet', 'Cupid', 'Donner']
 
 
 ### Removing from a list, by item
@@ -232,8 +232,8 @@ all_reindeer.remove('Prancer')
 print(all_reindeer)
 ```
 
-    ['Dasher', 'Dancer', 'Prancer', 'Vixen', 'Comet', 'Cupid', 'Donner']
-    ['Dasher', 'Dancer', 'Vixen', 'Comet', 'Cupid', 'Donner']
+    ['Dasher', 'Dancer', 'Prancer', 'Vixen', 'Comet', 'Cupid', 'Donner', 'Rudolf']
+    ['Dasher', 'Dancer', 'Vixen', 'Comet', 'Cupid', 'Donner', 'Rudolf']
 
 
 ## Math Module
@@ -282,9 +282,9 @@ random.shuffle(all_reindeer)
 print(all_reindeer)
 ```
 
-    Comet
-    ['Dasher', 'Dancer', 'Vixen', 'Comet', 'Cupid', 'Donner']
-    ['Cupid', 'Dasher', 'Donner', 'Dancer', 'Vixen', 'Comet']
+    Cupid
+    ['Dasher', 'Dancer', 'Vixen', 'Comet', 'Cupid', 'Donner', 'Rudolf']
+    ['Vixen', 'Cupid', 'Comet', 'Rudolf', 'Donner', 'Dancer', 'Dasher']
 
 
 
@@ -292,7 +292,7 @@ print(all_reindeer)
 print(random.sample(all_reindeer, 3))
 ```
 
-    ['Donner', 'Vixen', 'Comet']
+    ['Dancer', 'Donner', 'Comet']
 
 
 ## Random numbers
@@ -304,7 +304,7 @@ print(random.randrange(0,10))
 print(random.gauss(10,3))
 ```
 
-    3
-    0
-    12.054039820951616
+    5
+    6
+    12.385701953398804
 
